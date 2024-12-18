@@ -1,0 +1,27 @@
+{
+	"$and": [
+		{
+			"datetime": {
+				"$eq": null
+			}
+		},
+		{
+			"lang": "en"
+		},
+		{
+			"connection_type": {
+				"$exists": "true"
+			}
+		},
+		{
+			"connection_type": {
+				"$ne":null
+			}
+		},
+		{
+			"connected_user": {
+				"$ne":null
+			}
+		}
+	]
+}
