@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# VS files
+/.vs
+/enc_temp_folder/b8dbbab4f890448a60ab9d91540967b
+/polpolte.21d4c6ee/x64/Debug
+/vcpkg_installed
+/x64/Debug
+*/x64/Debug
+*.xml
+/packages
